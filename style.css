@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#firstblue {
+    background-color:  #4892DA;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+.lines {
+    margin: 20px 10px;
+    display: flex;
+    gap: 7px;
+}
+
+#icons {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.partone {
+    display: flex;
+    align-items: center;
+}
+
+#ghapodiv {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    height: 100px;
+}
+
+#whitediv {
+    background-color: wheat;
+    height: 500px;
+    width: 100%
+}
+
+#involvediv {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.involved {
+    margin: 7.5px 0px 7.5px 30px ;
+    font-weight: 805;
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.732);
+}
+
+#action {
+    color:#4892DA;
+    font-size: 1.5rem;
+}
+
+.box {
+    height: 200px;
+    width: 100%
+}
+
+#donation {
+    background-color: #013473;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 829;
+    padding-left: 30px;
+}
+
+#volunteer {
+    background-color:#4892DA;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 829;
+    padding-left: 30px;
+}
+
+#scholarship {
+    background-color: #7bdcb5;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 829;
+    padding-left: 30px;
+}
+
+#ghapodiv {
+    display: flex;
+}
+
+.line {
+    background-color: gray;
+    height: 3px;
+    margin: 10px 0px;
+    width: 100%
+}
+
+.rightdiv {
+    display: flex;
+    justify-content: right;
+}
